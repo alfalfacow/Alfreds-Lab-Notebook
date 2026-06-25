@@ -19,19 +19,19 @@ The types of data needed for survival analysis will be explored in the next sect
 ![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDCPortal.png)
 Patient clinical data from TCGA can be accessed through the [Genomic Data Commons (GDC) Portal](https://portal.gdc.cancer.gov/), hosted by the National Cancer Institute (NCI).
 
-![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDCPortal.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDC2.png)
 Once you navigate to the image shown above, click on "Cohort Builder" as circled in red in the first image. Under the "Project" window, after clicking the "+ 85 more" button to expand the selection, scroll down and you will see all the TCGA projects (with the format TCGA-"project abbreviation"). For example, TCGA-HNSC is for Head-Neck Squamous Cell Carcinoma, while TCGA-BRCA is for breast cancer. Click on the check box next to the project you are interested in.
 
-![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDC3.png)
 
 Next, navigate to the "Repository" tab, circled in red above. On the **left** side you should see a tab for "filters". Scroll down to "Data Category" and click the check mark for "clinical". Then, click "Add All Files to Cart", circled in blue above. 
 
-![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDC4.png)
 
 Finally, navigate to the "Cart" button of the website. Under "File Counts By Project", make sure the patient count is correct for your specific project (TCGA-HNSC should have something like 528 as of 2026). You can then click the dropdown arrow of the "Clinical" button and click the "TSV" option to download the data in the TSV (Tab-Separated Values) format. You have officially downloaded all the clinical information, including survival data, for your TCGA cohort of interest!
 
 ## 2. Accessing HPV Status
 If you are interested in HPV status of TCGA patients, this can be found from the [cBioPortal](https://www.cbioportal.org/datasets) resource. For each TCGA cohort, HPV data is stored in the "(TCGA, PanCancer Atlas)" datasets from the link above (for example, for HNSC, click on ["Head and Neck Squamous Cell Carcinoma (TCGA, PanCancer Atlas)"](https://www.cbioportal.org/study/summary?id=hnsc_tcga_pan_can_atlas_2018)). Once clicked, go to the "Clincal Data" tab, where HPV status should be displayed under the "Subtype" column. To download this data in TSV format, click on the little cloud button to the left of the search bar.
 
-![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/cBioPortalHPV.png)
 
