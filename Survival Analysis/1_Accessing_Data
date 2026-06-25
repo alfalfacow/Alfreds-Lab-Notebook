@@ -1,0 +1,9 @@
+# Accessing Survival Data
+
+## Quick intro to survival analysis
+Survival analysis is very important in biomedical research because it allows us to quantify whether a treatment or condition is associated with better or worse outcomes. In cancer research, it is commonly done to see whether a drug treatment in better patient survival compared to a control. It can also be done to see whether patients with a certain gene signature or condition exhibit better survival and outcome.
+
+Typically you will see survival analysis results displayed in a Kaplan-Meier Curve, which demonstrates
+
+## Step 1: A
+First, you will need to
