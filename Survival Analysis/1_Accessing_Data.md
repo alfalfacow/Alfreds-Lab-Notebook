@@ -5,7 +5,7 @@
 
 Typically you will see survival analysis results displayed in a [**Kaplan Meier Curve**](https://numiqo.com/tutorial/kaplan-meier-curve) (image attached below). The x-axis represents time, while the y-axis represents the estimated probability of surviving beyond a given time point. The lower the curve, the lower the percent of surviving patients and thus the worse the outcome. The y-axis value of "estimated survival probability" involves more detailed statistics and math that is not discussed here.
 
-![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/Km_plot.jpg)
 
 In more "technical" terms, survival analysis is interested in "survival time", defined as the time until an event occurs. In biomedicine, the "event" is most commonly death (often called **"Overall Survival"** (OS)). However, you will encounter some studies that are interested in time until recurrence/relapse of a disease ("Recurrence/Relapse-free survival" (RFS)), progression of a disease to a more severe state ("Progression-Free Survival" (PFS)), and more.
 
