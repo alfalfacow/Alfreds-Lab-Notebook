@@ -16,15 +16,15 @@ For TCGA survival data, many patients are alive at their last follow-up time. Th
 The types of data needed for survival analysis will be explored in the next section!
 
 ## 1. Accessing Survival Data from TCGA (The Cancer Genome Atlas)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDCPortal.png)
 Patient clinical data from TCGA can be accessed through the [Genomic Data Commons (GDC) Portal](https://portal.gdc.cancer.gov/), hosted by the National Cancer Institute (NCI).
 
 ![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDCPortal.png)
-
-Once you navigate to the image shown above, click on "Cohort Builder" as circled in red above. Under the "Project" window, after clicking the "+ 85 more" button to expand the selection, scroll down and you will see all the TCGA projects (with the format TCGA-"project abbreviation"). For example, TCGA-HNSC is for Head-Neck Squamous Cell Carcinoma, while TCGA-BRCA is for breast cancer. Click on the check box next to the project you are interested in.
+Once you navigate to the image shown above, click on "Cohort Builder" as circled in red in the first image. Under the "Project" window, after clicking the "+ 85 more" button to expand the selection, scroll down and you will see all the TCGA projects (with the format TCGA-"project abbreviation"). For example, TCGA-HNSC is for Head-Neck Squamous Cell Carcinoma, while TCGA-BRCA is for breast cancer. Click on the check box next to the project you are interested in.
 
 ![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
 
-Next, navigate to the "Repository" tab, circled in red above. On the left side you should see a tab for "filters". Scroll down to "Data Category" and click the check mark for "clinical". Then, click "Add All Files to Cart", circled in blue above. 
+Next, navigate to the "Repository" tab, circled in red above. On the **left** side you should see a tab for "filters". Scroll down to "Data Category" and click the check mark for "clinical". Then, click "Add All Files to Cart", circled in blue above. 
 
 ![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
 
