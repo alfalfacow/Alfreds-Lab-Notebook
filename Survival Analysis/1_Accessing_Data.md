@@ -18,7 +18,7 @@ The types of data needed for survival analysis will be explored in the next sect
 ## 1. Accessing Survival Data from TCGA (The Cancer Genome Atlas)
 Patient clinical data from TCGA can be accessed through the [Genomic Data Commons (GDC) Portal](https://portal.gdc.cancer.gov/), hosted by the National Cancer Institute (NCI).
 
-![Alt text](https://raw.githubusercontent.com/alfalfacow/Spatial-Transcriptomics/main/Images/bad-umap.png)
+![Alt text](https://github.com/alfalfacow/Spatial-Transcriptomics/blob/main/Images/GDCPortal.png)
 
 Once you navigate to the image shown above, click on "Cohort Builder" as circled in red above. Under the "Project" window, after clicking the "+ 85 more" button to expand the selection, scroll down and you will see all the TCGA projects (with the format TCGA-"project abbreviation"). For example, TCGA-HNSC is for Head-Neck Squamous Cell Carcinoma, while TCGA-BRCA is for breast cancer. Click on the check box next to the project you are interested in.
 
