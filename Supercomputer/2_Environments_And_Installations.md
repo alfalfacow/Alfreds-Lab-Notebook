@@ -15,6 +15,10 @@
 * 3.4: Deactivate
 * 3.5: Other Useful Commands
 
+4: Sharing an environment
+* 4.1: Exporting
+* 4.2: Recreating
+
 ## 1: What are Conda and Mamba?
 Conda and Mamba are commonly used "Package and Environment Managers"; both are used to create isolated "environments" for Python and R programming.
 
@@ -157,6 +161,30 @@ conda list #displays all packages within currently active conda environment
 micromamba env list #displays list of all environments made within micromamba manager
 micromamba list #displays all packages within currently active micromamba environment
 ```
+
+## 4: Sharing an environment
+After creating an environment and filling it with your custom packages and dependencies, you may want to share this with others (such as lab mates) for reproducibility! According to the [documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/environments), you may do this by exporting your environment as a .yml file.
+
+### 4.1: Exporting
+To export your environment as a .yml file, simple use the following commands:
+```
+conda activate <ENV_NAME> #activate environment you want to export
+conda env export > environment.yml #or you can specify any name for the .yml file
+
+micromamba activate <ENV_NAME>
+conda env export > environment.yml
+```
+The .yml file will be found in your current working directory.
+
+### 4.2: Recreating
+To use a .yml file to recreate the environment on your own computer, use the following command:
+```
+conda env create --file environment.yml
+```
+The environment.yml file should be in the same directory as your current directory so you are able to access it!
+
+That's all for environments; please let me know if any of the code doesn't work, is outdated, or if there are any factual errors!
+
 
 ## References/Additional Resources
 [Conda Documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/main)
