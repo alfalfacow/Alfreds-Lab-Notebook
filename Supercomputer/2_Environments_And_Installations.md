@@ -5,8 +5,15 @@
 1: What are Conda and Mamba?
 
 2: Installing Conda and Mamba
+* 2.1: Conda
+* 2.2: Mamba
 
 3: Creating and Using an environment
+* 3.1: Create
+* 3.2: Activate
+* 3.3: Install
+* 3.4: Deactivate
+* 3.5: Other Useful Commands
 
 ## 1: What are Conda and Mamba?
 Conda and Mamba are commonly used "Package and Environment Managers"; both are used to create isolated "environments" for Python and R programming.
@@ -15,13 +22,8 @@ What exactly does this mean? When you want to run a specific software or package
 
 The difference bewteen Conda and Mamba is mainly that Mamba is known for being faster due to its running on C++. Both work well! Many sources recommend Mamba over Conda due to speed, but many tutorials online will download packages using conda; know that both are great and are often interchangeable.
 
-Some more reading: 
-[Link](https://iamdamilare13.medium.com/mamba-vs-conda-know-the-differences-and-similarities-be3ae94d2542)
-[Link](https://statistics.berkeley.edu/computing/conda)
-[Link](https://www.dataschool.io/conda-vs-anaconda-vs-miniconda/)
-
 ## 2: Installing Conda and Mamba
-### Conda
+### 2.1: Conda
 To download Conda, you can use the wget command to download the file directly from the internet ([this link](https://repo.anaconda.com/miniconda/), if you are curious)[.](https://github.com/rxinnn/Lab_toolkit/blob/main/1_Introductory_Material/3_Conda.md) Once logged in to the supercomputer account via ssh, change to the home directory (using the cd command, stands for change directory) and download the file listed below in the code chunk (using the wget command). This will download the .sh file, which is the conda installer. To execute the installer, we will use the bash command.
 
 ```
@@ -46,7 +48,7 @@ Proceed with initialization? [yes|no]
 (TYPE YES HERE AND CLICK ENTER)
 ```
 
-### Mamba (specifically Micromamba)
+### 2.2: Mamba (specifically Micromamba)
 Like Conda, Mamba is an environment/package manager. A specific "subtype" of the Mamba tool is called Micromamba, defined as a ["tiny"](https://research.it.iastate.edu/micromamba-usage-guide) and ["more compact"](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) version of the mamba package manager. Some forums online recommend mamba over conda for speed, and [micromamba over mamba](https://discourse.pangeo.io/t/mamba-mature-enough/3154/2), so we will focus on downloading micromamba.
 
 To install Micromamba, use the following code on the command line/Termius
@@ -101,7 +103,7 @@ Since this file is read every time you open a new terminal window, conda/mamba c
 
 ## 3: Creating and Using an environment
 
-### Create
+### 3.1: Create
 The syntax for creating an environment is practically the same for both conda and mamba! You will notice that to run conda or micromamba commands, the general format is: conda/micromamba + command name + command specifications. There are three main commands for environment creation you should know: create, activate, and install. Other downstream commands to know include: deactivate, env list, and list[.](https://www.montana.edu/uit/rci/tempest/getting-started-online/rstudio-custom-r/index.html)
 ```
 #For everything in the brackets, replace with actual information of interest
@@ -118,7 +120,7 @@ micromamba create -n <name_of_environment> r-base=<name_of_R_version> #for R stu
 ```
 Note: for creating environments with R studio, it is recommended to use micromamba due to the faster and lighter nature compared to conda, as described above. The first time I tried this with conda, it kept failing.
 
-### Activate
+### 3.2: Activate
 To activate a created environment, simply use:
 ```
 conda activate <ENV_NAME>
@@ -126,7 +128,7 @@ micromamba activate <ENV_NAME>
 ```
 You will notice the environment name show up on the tab where you type in commands on the terminal! That is an indication that your environment has been successfully activated. All packages and commands within this environment are now ready to be run :)
 
-### Install
+### 3.3: Install
 While you can specify many packages during the "create" command, sometimes you will want to install additional packages into the environment following creation. This is done using the "install" command.
 ```
 conda install <PACKAGE>=<VERSION> <PACKAGE>=<VERSION> <PACKAGE>=<VERSION> #this installs multiple packages in the currently activated conda environment (activate command)
@@ -139,7 +141,7 @@ conda install <PACKAGE>=<VERSION> <PACKAGE>=<VERSION> --name <ENV_NAME> #this in
 ```
 Note from [documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/using-r-language) to keep in mind: "When using conda to install R packages, add r- before the regular package name. For instance, to install rbokeh, use conda install r-rbokeh. To install rJava, use conda install r-rjava."
 
-### Deactivate
+### 3.4: Deactivate
 Finally, to deactivate the environment after you are done running commands on the terminal, simply use the deactivate command
 ```
 conda deactivate
@@ -147,7 +149,7 @@ conda deactivate
 #or if using micromamba environment
 micromamba deactivate
 ```
-### Other useful commands
+### 3.5: Other useful commands
 ```
 conda env list #displays list of all environments made within conda manager
 conda list #displays all packages within currently active conda environment
