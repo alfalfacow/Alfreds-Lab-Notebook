@@ -187,14 +187,14 @@ That's all for environments; please let me know if any of the code doesn't work,
 
 
 ## References/Additional Resources
-[Conda Documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/main)
-[Mamba/Micromamba Documentation](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)
-[Mamba github](https://github.com/mamba-org/micromamba-releases)
-[Conda vs Mamba reading 1](https://iamdamilare13.medium.com/mamba-vs-conda-know-the-differences-and-similarities-be3ae94d2542)
-[Conda vs Mamba reading 2](https://statistics.berkeley.edu/computing/conda)
-[Conda vs Mamba reading 3](https://www.dataschool.io/conda-vs-anaconda-vs-miniconda/)
-[Yale conda guide](https://docs.ycrc.yale.edu/clusters-at-yale/guides/conda/) (slightly different than Expanse system so might not be applicable)
-[Arizona State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
-[Iowa State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
-[Montana State R studio in micromamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
-[Biostars forum](https://www.biostars.org/p/450316/?__cf_chl_f_tk=LgZTwFTU3L2no4SKLhDIMWWVaPC7PK8cdf.ijI4aLV4-1782799542-1.0.1.1-xPucZ9mNDMrxYIixX7aKFwkLmXRD6YjoOAVQj5tMqSA) about downloading R using conda/mamba that is probably outdated
+* [Conda Documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/main)
+* [Mamba/Micromamba Documentation](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html)
+* [Mamba github](https://github.com/mamba-org/micromamba-releases)
+* [Conda vs Mamba reading 1](https://iamdamilare13.medium.com/mamba-vs-conda-know-the-differences-and-similarities-be3ae94d2542)
+* [Conda vs Mamba reading 2](https://statistics.berkeley.edu/computing/conda)
+* [Conda vs Mamba reading 3](https://www.dataschool.io/conda-vs-anaconda-vs-miniconda/)
+* [Yale conda guide](https://docs.ycrc.yale.edu/clusters-at-yale/guides/conda/) (slightly different than Expanse system so might not be applicable)
+* [Arizona State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
+* [Iowa State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
+* [Montana State R studio in micromamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
+* [Biostars forum](https://www.biostars.org/p/450316/?__cf_chl_f_tk=LgZTwFTU3L2no4SKLhDIMWWVaPC7PK8cdf.ijI4aLV4-1782799542-1.0.1.1-xPucZ9mNDMrxYIixX7aKFwkLmXRD6YjoOAVQj5tMqSA) about downloading R using conda/mamba that is probably outdated
