@@ -110,6 +110,9 @@ Since this file is read every time you open a new terminal window, conda/mamba c
 ### 3.1: Create
 The syntax for creating an environment is practically the same for both conda and mamba! You will notice that to run conda or micromamba commands, the general format is: conda/micromamba + command name + command specifications. There are three main commands for environment creation you should know: create, activate, and install. Other downstream commands to know include: deactivate, env list, and list[.](https://www.montana.edu/uit/rci/tempest/getting-started-online/rstudio-custom-r/index.html)
 ```
+#if you want to create a basic micromamba environment with R studio and no additional packages yet:
+micromamba create -n r_environment r-base
+
 #For everything in the brackets, replace with actual information of interest
 conda create --name <ENV_NAME> #most simple
 conda create --name <ENV_NAME> <PACKAGE>=<VERSION> <PACKAGE> <PACKAGE> #create the environment, and download 3 packages as specified
