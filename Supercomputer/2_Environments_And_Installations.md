@@ -197,4 +197,4 @@ That's all for environments; please let me know if any of the code doesn't work,
 * [Arizona State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
 * [Iowa State mamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
 * [Montana State R studio in micromamba guide](https://research.it.iastate.edu/micromamba-usage-guide)
-* [Biostars forum](https://www.biostars.org/p/450316/?__cf_chl_f_tk=LgZTwFTU3L2no4SKLhDIMWWVaPC7PK8cdf.ijI4aLV4-1782799542-1.0.1.1-xPucZ9mNDMrxYIixX7aKFwkLmXRD6YjoOAVQj5tMqSA) about downloading R using conda/mamba that is probably outdated
+* Probably outdated [Biostars forum](https://www.biostars.org/p/450316/?__cf_chl_f_tk=LgZTwFTU3L2no4SKLhDIMWWVaPC7PK8cdf.ijI4aLV4-1782799542-1.0.1.1-xPucZ9mNDMrxYIixX7aKFwkLmXRD6YjoOAVQj5tMqSA) about downloading R using conda/mamba
