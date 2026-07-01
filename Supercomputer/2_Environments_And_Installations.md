@@ -3,7 +3,9 @@
 ## Table of Contents
 
 1: What are Conda and Mamba?
+
 2: Installing Conda and Mamba
+
 3: Creating and Using an environment
 
 ## 1: What are Conda and Mamba?
