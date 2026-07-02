@@ -28,7 +28,7 @@ HPC cluster resources are shared among MANY individuals, scholars, and researche
 
 There are several different types of schedulers, but for the Expanse HPC cluster the scheduler is called SLURM (Simple Linux Utility for Resource Management). SLURM manages the job queue and allocates memory/resources to different jobs. Another example of a scheduler is Sun Grid Engine (SGE), although we don't really need to know that. Knowing what scheduler we have is important because the syntax for batch jobs and resource requests is different.
 
-##3: Anatomy of a Batch Job
+## 3: Anatomy of a Batch Job
 SLURM batch jobs are submitted in the form of a plain text file (.txt, .sh, .sl, .job, etc.). This file requires very specific syntax for telling the compute node exactly what to do (including resource requests, environment initialization, and the actual commands/computations to be run).
 
 Here is a link to an example document/template with the proper batch job heading and format: [click here](https://docs.google.com/document/d/1zPe-o6Lg4T1DdZSLBxcUbOc4Nkr5nwozAY92RcC7Xl8/edit?tab=t.0)
