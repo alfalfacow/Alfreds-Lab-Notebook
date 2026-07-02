@@ -192,11 +192,12 @@ conda env create --file environment.yml
 ```
 The environment.yml file should be in the same directory as your current directory so you are able to access it!
 
-## 4: Considerations for batch jobs
+## 5: Considerations for batch jobs
 TBA soon
 
-That's all for environments; please let me know if any of the code doesn't work, is outdated, or if there are any factual errors!
+[conda](https://github.com/conda/conda/issues/7980) [mam](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html) [ba](https://research.it.iastate.edu/micromamba-usage-guide)
 
+That's all for environments; please let me know if any of the code doesn't work, is outdated, or if there are any factual errors!
 
 ## References/Additional Resources
 * [Conda Documentation](https://www.anaconda.com/docs/getting-started/working-with-conda/main)
