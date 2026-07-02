@@ -88,9 +88,9 @@ squeue -u $USER #shows all jobs submitted by you
 ```
 
 ## References and Readings
-[UIowa Login vs Compute nodes](https://iowabiostat.github.io/hpc/4.html)
-[UPenn HPC basics](https://ekatsevi.github.io/statistical-computing/hpc-basics.html)
-[SBATCH Slurm documentation](https://slurm.schedmd.com/sbatch.html) (includes more info on sbatch commands)
-[UAB Slurm Batch Job script](https://docs.rc.uab.edu/cheaha/slurm/submitting_jobs/)
-[JHU Slurm script tutorial](https://www.arch.jhu.edu/short-tutorial-how-to-create-a-slurm-script/)
-[Batch Jobs + Scripting guide](https://curc.readthedocs.io/en/latest/running-jobs/batch-jobs.html)
+* [UIowa Login vs Compute nodes](https://iowabiostat.github.io/hpc/4.html)
+* [UPenn HPC basics](https://ekatsevi.github.io/statistical-computing/hpc-basics.html)
+* [SBATCH Slurm documentation](https://slurm.schedmd.com/sbatch.html) (includes more info on sbatch commands)
+* [UAB Slurm Batch Job script](https://docs.rc.uab.edu/cheaha/slurm/submitting_jobs/)
+* [JHU Slurm script tutorial](https://www.arch.jhu.edu/short-tutorial-how-to-create-a-slurm-script/)
+* [Batch Jobs + Scripting guide](https://curc.readthedocs.io/en/latest/running-jobs/batch-jobs.html)
